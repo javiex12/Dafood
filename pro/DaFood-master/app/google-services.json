@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "903158821925",
+    "firebase_url": "https://dafood-5c79a.firebaseio.com",
+    "project_id": "dafood-5c79a",
+    "storage_bucket": "dafood-5c79a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903158821925:android:94e9a105e9815863",
+        "android_client_info": {
+          "package_name": "comp.dafood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903158821925-nbngq7utdvg7f1g1ol8kfmhllspe8u2r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuc4jKQ2VQvrcegyEGGoUdcmCxs_3m31g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Postre : Si"
+        android:id="@+id/postre"
+        android:layout_alignBaseline="@+id/segundo"
+        android:layout_alignBottom="@+id/segundo"
+        android:layout_alignStart="@+id/refresco"
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segundo : A"
+        android:id="@+id/segundo"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_below="@+id/entrada"
+        android:layout_alignStart="@+id/entrada" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numMesa"
+        android:text="Numero de mesa: "
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_below="@+id/obs"
+        android:layout_alignStart="@+id/segundo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrada : 1"
+        android:id="@+id/entrada"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="12dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_alignTop="@+id/refresco"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En proceso"
+            android:id="@+id/radiopro"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finalizado"
+            android:id="@+id/radiofin"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresco : Si"
+        android:id="@+id/refresco"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_above="@+id/postre"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obs"
+        android:text="Observaciones : "
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignStart="@+id/numMesa" />
+
+    <Button
+        android:text="Aplicar Cambios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cambios"
+        android:layout_below="@+id/radioGroup"
+        android:layout_toEndOf="@+id/postre" />
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrada : 1"
+        android:id="@+id/entrada"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segundo : A"
+        android:id="@+id/segundo"
+        android:layout_below="@+id/entrada"
+        android:layout_alignStart="@+id/entrada"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresco : Si"
+        android:id="@+id/refresco"
+        android:layout_alignBaseline="@+id/entrada"
+        android:layout_alignBottom="@+id/entrada"
+        android:layout_toEndOf="@+id/segundo"
+        android:layout_marginStart="35dp"
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Postre : Si"
+        android:id="@+id/postre"
+        android:layout_alignBaseline="@+id/segundo"
+        android:layout_alignBottom="@+id/segundo"
+        android:layout_alignStart="@+id/refresco"
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numMesa"
+        android:text="Numero de mesa: "
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/segundo"
+        android:layout_alignStart="@+id/segundo"
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obs"
+        android:text="Observaciones : "
+        android:layout_below="@+id/segundo"
+        android:layout_alignStart="@+id/numMesa"
+        android:layout_marginTop="13dp"
+        android:textStyle="italic"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
